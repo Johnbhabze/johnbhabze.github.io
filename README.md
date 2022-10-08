@@ -1,2 +1,2 @@
 # johnbhabze.github.io
-Sample Page
+Resume
