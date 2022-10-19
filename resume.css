@@ -3,9 +3,22 @@
     padding:0;
 }
 body{
-    background-color:rgba(0, 225, 255, 0.1);
-    background-repeat: no-repeat;
+    background-image:linear-gradient(to left, rgb(255, 0, 191), rgb(119, 0, 255));
     background-size:  cover;
+}
+body:hover{
+    background-image:linear-gradient(to left,  rgb(119, 0, 255),rgb(255, 0, 191));
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.mail{
+    text-decoration: none;
+    color:white;
+}
+#name p a{
+    color:rgb(91,155,213);
 }
 #outer, #entire{
     margin-top:80px;
@@ -16,7 +29,7 @@ body{
     width:1000px;
 }
 #outer{
-    background-color: rgba(255, 255, 255, 0.363);
+    background-color: rgba(255, 255, 255, 0.85);
     margin-left:150px;
     margin-right:150px;
 }
@@ -26,7 +39,6 @@ body{
     background-size: cover;
 }
 #photo{
-
     margin-top:80px;
     height:220px;
 }
@@ -81,6 +93,14 @@ body{
 #educ h2, #exp h2, #coc h2, #cop h2, #per h2{
     color: rgb(116, 162, 253);
 }
+#educ h2:hover, #exp h2:hover, #coc h2:hover, #cop h2:hover, #per h2:hover{
+    color: rgb(1, 13, 124);
+    font-size: xx-large;
+}
+#educ h3:hover, #exp h3:hover, #coc h3:hover, #cop h3:hover, #per h3:hover, table:hover{
+    background-image:linear-gradient(to left, rgba(119, 0, 255, 0.350),rgba(255, 0, 191, 0.350));
+    border-radius:10px;
+}
 #educ, #exp, #coc, #cop, #per{
     padding:.4cm;
 }
@@ -124,8 +144,8 @@ body{
 }
 #pdf h3 a{
     text-align: center;
-    background: rgba(0, 60, 255, 0.322);
-    color: rgb(0, 60, 255);
+    background: rgba(0, 60, 255, 0.25);
+    color: rgb(130, 149, 253);
     padding: 6px 50px 6px 50px;
     margin-left:550px;
     text-decoration: none;
@@ -133,5 +153,5 @@ body{
 }
 #pdf h3 a:hover{
     background: rgb(0, 60, 255);
-    color:rgb(140, 167, 255);
+    color:rgb(130, 149, 253);
 }
